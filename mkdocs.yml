@@ -1,0 +1,32 @@
+site_name: "scriptshady"
+site_description: ""
+site_author: "scriptshady"
+repo_url: "https://github.com/scriptshady/website"
+
+
+theme:
+name: material
+language: en
+features:
+- navigation.instant
+- navigation.sections
+- navigation.top
+
+
+plugins:
+- search
+- awesome-pages
+
+
+markdown_extensions:
+- toc:
+permalink: true
+- admonition
+- footnotes
+- pymdownx.superfences
+
+
+extra:
+social:
+- icon: fontawesome/brands/github
+link: "https://github.com/scriptshady"
